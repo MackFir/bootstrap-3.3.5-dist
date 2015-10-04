@@ -32,16 +32,17 @@
 			<ul id="sdt_menu" class="sdt_menu">
 				<li>
 					<a href="#">
-						<img src="images/2.jpg" alt=""/>
+						<img src="img/we.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
-							<span class="sdt_link">Обо мне</span>
+							<span class="sdt_link">О нас</span>
 							
 						</span>
 					</a>
 				</li>
+				
 				<li>
-					<a href="#">
+					<a href="http://www.kinopoisk.ru/film/782103/">
 						<img src="img/slide1.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
@@ -53,7 +54,7 @@
 				</li>
 				<li>
 					<a href="#">
-						<img src="images/3.jpg" alt=""/>
+						<img src="img/act.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
 							<span class="sdt_link">Актеры</span>
@@ -61,14 +62,14 @@
 						</span>
 					</a>
 					<div class="sdt_box">
-							<a href="#">Websites</a>
-							<a href="#">Illustrations</a>
-							<a href="#">Photography</a>
+							<a href="http://www.kinopoisk.ru/name/3221557/">Дарья Храмцова</a>
+							<a href="http://www.kinopoisk.ru/name/1715230/">Полина Максимова</a>
+							<a href="http://www.kinopoisk.ru/name/3502476/">Данил Стеклов</a>
 					</div>
 				</li>
 				<li>
 					<a href="#">
-						<img src="images/4.jpg" alt=""/>
+						<img src="img/abz.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
 							<span class="sdt_link">Другие проекты</span>
@@ -80,25 +81,13 @@
 				
 			</ul>
 		</div>
-        <div>
-            <span class="reference">
-                <a href="http://tympanus.net/codrops/2010/07/16/slide-down-box-menu/">back to the Codrops Tutorial</a>
-				<a href="http://www.flickr.com/photos/arcticpuppy/sets/72157622090180990/">Images by tibchris</a>
-            </span>
-		</div>
+       
 
-        <!-- The JavaScript -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 		<script type="text/javascript" src="jquery.easing.1.3.js"></script>
         <script type="text/javascript">
             $(function() {
-				/**
-				* for each menu element, on mouseenter, 
-				* we enlarge the image, and show both sdt_active span and 
-				* sdt_wrap span. If the element has a sub menu (sdt_box),
-				* then we slide it - if the element is the last one in the menu
-				* we slide it to the left, otherwise to the right
-				*/
+				
                 $('#sdt_menu > li').bind('mouseenter',function(){
 					var $elem = $(this);
 					$elem.find('img')
@@ -150,6 +139,13 @@
 				<div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ge-wheGqyAs" frameborder="0" allowfullscreen></iframe>
 				</div>
+				<div class="com"> 
+  <p class="Rec"><b>Рецензии:</b></p>
+  <div class="comm">
+  <p><textarea name="comment" class="comment"></textarea></p>
+  <p><input type="submit" class="button"></p>
+  <div>
+ 				</div>
 				
 			</div>
 	</body>

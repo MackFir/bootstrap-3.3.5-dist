@@ -179,3 +179,32 @@ width: 2042px;
 
 				
 }
+.com{
+ text-align: center;
+}
+.Rec{
+	font-family: arial;
+	font-size: 40px;
+	color: black;
+}
+.comm{
+	border-top:solid;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+	padding: 10px;
+}
+.comment{
+	 border: 1px solid black;
+	 border-radius: 3px;
+	 height: 100px;
+	 width: 512px;
+}
+.button{
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	
+	height: 50px;
+	width: 150px;
+}
